@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background: linear-gradient(0deg, #ffb8b8 0%, #ffffff 100%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.student {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 1px #0000004a;
+  width: 60%;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+img {
+  width: 30%;
+  border-radius: 10%;
+  margin-bottom: 5px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: none;
+  background: #39f2ff;
+  text-transform: capitalize;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.redpins1,
+.redpins2,
+.redpins3,
+.redpins4,
+.redpins5 {
+  width: 6%;
+  top: 2%;
+}
+
+.redpins1 {
+  position: absolute;
+  
+  left: 40%;
+}
+.redpins2 {
+  position: absolute;
+
+  left: 44%;
+}
+.redpins3 {
+  position: absolute;
+
+  left: 48%;
+}
+.redpins4 {
+  position: absolute;
+  left: 52%;
+}
+.redpins5 {
+  position: absolute;
+  left: 56%;
+}

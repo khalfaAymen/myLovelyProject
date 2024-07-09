@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Add Students Form</title>
-    <link rel="stylesheet" href="../style/addStudents.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="../style/addStudents.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="submit">
+        <a href="/html/display.html"><h1>Add New Student</h1></a>
+        <label for="firstName">Fist Name</label>
+        <input type="text" name="firstName" id="firstName" />
 
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
 
+        <label for="cohort">Cohort</label>
+        <input type="text" name="cohort" id="cohort" />
 
+        <label for="studentpic">Choose a profile picture:</label>
+        <input
+          type="file"
+          id="studentpic"
+          name="studentpic"
+          accept="image/png, image/jpeg"
+        />
 
-
-
-
-
-
-    <script src="../scripts/addStudents.js"></script>
-</body>
+        <button id="submit" class="btn" type="submit" onclick="">Submit</button>
+      </form>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="../scripts/addStudents.js"></script>
+  </body>
 </html>
